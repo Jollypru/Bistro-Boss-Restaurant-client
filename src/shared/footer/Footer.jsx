@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className='text-white'>
             <div className="grid grid-cols-2">
-                <aside className='bg-[#1F2937] w-full py-16 pl-36 flex flex-col items-center justify-center text-center space-y-4'>
+                <aside className='bg-[#1F2937] w-full py-16 pl-28 lg:pl-36 flex flex-col items-center justify-center text-center space-y-4'>
                    <h3 className='text-2xl uppercase'>Contact Us</h3>
                    <div className='space-y-1'>
                         <p>123 ABS Street, Uni 21, Bangladesh</p>
@@ -13,7 +13,7 @@ const Footer = () => {
                         <p>Sat - Sun: 08:00 - 22:00</p>
                    </div>
                 </aside>
-                <nav className='bg-[#111827] w-full py-16 pr-48 flex flex-col items-center justify-center'>
+                <nav className='bg-[#111827] w-full py-16 pr-28 lg:pr-48 flex flex-col items-center justify-center'>
                     <h6 className="footer-title">Follow Us</h6>
                     <p>Join us on social media</p>
                     <div className="grid grid-flow-col gap-4 mt-4">
